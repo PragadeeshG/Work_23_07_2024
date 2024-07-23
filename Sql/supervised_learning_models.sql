@@ -1,0 +1,17 @@
+create table if not exists supervised_learning_models(
+image_classification_indicator Integer not null,
+clustering varchar(255) null,
+visualization Integer null,
+generative_models varchar(255) null,
+reinforcement_learning varchar(255) null,
+classification varchar(255) null,
+regression varchar(255) null,
+web_cluster varchar(255) null,
+high_dimension_data varchar(255) null,
+un_supervised char null,
+image_classification_date varchar(255) null,
+density_estimation varchar(255) null,
+dimensionality varchar(255) null,
+dimensionality_reduction varchar(255) null,
+entity_state varchar(255) null,
+constraint supervised_learning_models_pk primary key(image_classification_indicator));
